@@ -233,9 +233,9 @@ require("d3@5")
   ]
 };
 
-const notebook2 = {
-  id: "208ac4d6c3f58ab1@216",
+const notebook = {
+  id: "208ac4d6c3f58ab1@215",
   modules: [m0]
 };
 
-export default notebook2;
+export default notebook;
