@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>睡眠之虞 | 新闻正文</title>
+
+    <link href="css/tabletStatistics.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/main-news.css" rel="stylesheet" type="text/css" /> -->
+    <!--饼图style-->
+    <link rel="stylesheet" type="text/css" href="css/circleStyle.css" />
+    <!--<script data-require="d3@4.0.0" data-semver="4.0.0" src="https://d3js.org/d3.v4.js"></script>-->
+    <!--饼图style结束-->
+
+    <!--liquidFill图相关-->
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+    <script src="js/liquidFill.js" language="JavaScript"></script>
+    <style>
+        .liquidFillGaugeText {
+            font-family: Helvetica;
+            font-weight: bold;
+        }
+    </style>
+    <!--liquidFill图相关结束-->
+
+
+
+</head>
+
+<body style="text-align: center">
+    <h1>睡眠之虞</h1>
+    <h2>800条个人睡眠记录数据及世界统计数据向我们讲述了什么</h2>
+    <article style="text-align: left">
+        <p>生活在英国Nelson的Dana Diotte是一位地球数学专家，同时也是一位网页开发者。2014年起，他开始使用iOS系统上的Sleep
+            Cycle软件收集自己的睡眠数据。这一软件通过自行采集及使用者手动输入的方式，记录了入睡时间、起床时间、睡眠质量、睡眠时间、起床心情、睡前行为、心率等八类数据。</p>
+        <p>Dana的这一记录习惯一直保持到2018年，最终有间断地收集了八百余条睡眠数据。</p>
+        <div>此处为K的睡眠质量图</div>
+    </article>
+    <div id="content" style="text-align:left;width: 800px;display: inline-block">
+        <p>生活在英国Nelson的Dana Diotte是一位地球数学专家，同时也是一位网页开发者。2014年起，他开始使用iOS系统上的Sleep
+            Cycle软件收集自己的睡眠数据。这一软件通过自行采集及使用者手动输入的方式，记录了入睡时间、起床时间、睡眠质量、睡眠时间、起床心情、睡前行为、心率等八类数据。</p>
+        <p>Dana的这一记录习惯一直保持到2018年，最终有间断地收集了八百余条睡眠数据。</p>
+        <div>此处为K的睡眠质量图</div>
+        <p>我们可以看出K在2016年8，9，10月的睡眠质量明显偏低，为了对照试验，我们选取了在此之前的睡眠质量较好的2016年5，6，7月进行对照分析</p>
+
+
+
+        <div>第一个动态矩形图</div>
+        <p>在第一个时间段她惯常在xx点入睡，xx点起床，她的睡眠时间平均是</p>
+
+        <!--圈图-->
+        <div>
+            <div id="chart"></div>
+            <script type="text/javascript" src="js/circle.js"></script>
+        </div>
+
+    </div>
+    <div>第二个动态矩形图</div>
+    <p>在第二个时间段她惯常在xx点xxx</p>
+
+    <!--液体流动图—睡眠计划改变-->
+    <div>
+        <table width="100%">
+            <tbody>
+                <td width="50%" style="text-align: center;">
+                    <p width="50%" style="font-family: 楷体;font-size: 30px;">男性</p>
+                </td>
+                <td width="50%" style="text-align: center;">
+                    <p width="50%" style="font-family: 楷体;font-size: 30px;">女性</p>
+                </td>
+            </tbody>
+        </table>
+        <svg id="fillgauge1" width="49%" height="250" onclick="gauge1.update(NewValue());changeVal();"></svg>
+        <svg id="fillgauge2" width="49%" height="250" onclick="gauge2.update(changeValue());changeVal1()"></svg>
+        <table width="100%">
+            <tbody>
+                <td width="50%" style="text-align: center;">
+                    <p id="genderText" width="50%" style="font-family: 楷体;font-size: 30px;">身体原因</p>
+                </td>
+                <td width="50%" style="text-align: center;">
+                    <p id="genderText1" width="50%" style="font-family: 楷体;font-size: 30px;">身体原因</p>
+                </td>
+            </tbody>
+        </table>
+        <script language="javascript" src="js/liquidFillContent.js"></script>
+    </div>
+
+    <!--词频图-->
+    <img src="img/wordFrequency.png" alt="词频统计" style="width:1000px;"></img>
+
+
+    <!--统计图-->
+    <div id='dashboard'></div>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script language="JavaScript" src="js/tabletStatistics.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+{
+    "took": 492,
+    "timed_out": false,
+    "_shards": {
+        "total": 5,
+        "successful": 3,
+        "failed": 0
+    },
+    "hits": {
+        "total": 30111166,
+        "max_score": 0,
+        "hits": []
+    },
+    "aggregations": {
+        "world_map": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [{
+                    "key": "ZAF",
+                    "doc_count": 552,
+                    "female": 557,
+                    "text": "South Africa (2010)"
+                },
+                {
+                    "key": "CHN",
+                    "doc_count": 540,
+                    "female": 544,
+                    "text": "China (2008)"
+                },
+                {
+                    "key": "EST",
+                    "doc_count": 532,
+                    "female": 528,
+                    "text": "Estonia (2009-2010)"
+                },
+                {
+                    "key": "IND",
+                    "doc_count": 534,
+                    "female": 521,
+                    "text": "India (1999)"
+                },
+                {
+                    "key": "NZL",
+                    "doc_count": 534,
+                    "female": 521,
+                    "text": "New Zealand (2009-10)"
+                },
+                {
+                    "key": "USA",
+                    "doc_count": 512,
+                    "female": 532,
+                    "text": "United States (2014)"
+                },
+                {
+                    "key": "SWE",
+                    "doc_count": 503,
+                    "female": 543,
+                    "text": "Sweden (2010)"
+                },
+                {
+                    "key": "AUS",
+                    "doc_count": 513,
+                    "female": 514,
+                    "text": "Australia (2006)"
+                },
+                {
+                    "key": "ESP",
+                    "doc_count": 510,
+                    "female": 510,
+                    "text": "Spain (2009-10)"
+                },
+                {
+                    "key": "FIN",
+                    "doc_count": 507,
+                    "female": 514,
+                    "text": "Finland (2009-10)"
+                },
+                {
+                    "key": "FRA",
+                    "doc_count": 506,
+                    "female": 513,
+                    "text": "France (2009)"
+                },
+                {
+                    "key": "AUT",
+                    "doc_count": 505,
+                    "female": 513,
+                    "text": "Austria (2008-09)"
+                },
+                {
+                    "key": "TUR",
+                    "doc_count": 504,
+                    "female": 512,
+                    "text": "Turkey (2006)"
+                },
+                {
+                    "key": "NLD",
+                    "doc_count": 498,
+                    "female": 516,
+                    "text": "Netherlands (2005-06)"
+                },
+                {
+                    "key": "POL",
+                    "doc_count": 502,
+                    "female": 511,
+                    "text": "Poland (2003-04)"
+                },
+                {
+                    "key": "PRT",
+                    "doc_count": 503,
+                    "female": 508,
+                    "text": "Portugal (1999)"
+                },
+                {
+                    "key": "BEL",
+                    "doc_count": 494,
+                    "female": 513,
+                    "text": "Belgium (2005)"
+                },
+                {
+                    "key": "SVN",
+                    "doc_count": 501,
+                    "female": 504,
+                    "text": "Slovenia (2000-01)"
+                },
+                {
+                    "key": "CAN",
+                    "doc_count": 493,
+                    "female": 507,
+                    "text": "Canada (2010)"
+                },
+                {
+                    "key": "IRL",
+                    "doc_count": 488,
+                    "female": 506,
+                    "text": "Ireland (2005)"
+                },
+                {
+                    "key": "ITA",
+                    "doc_count": 495,
+                    "female": 499,
+                    "text": "Italy (2008)"
+                },
+                {
+                    "key": "DEU",
+                    "doc_count": 488,
+                    "female": 497,
+                    "text": "Germany (2001-02)"
+                },
+                {
+                    "key": "MEX",
+                    "doc_count": 496,
+                    "female": 488,
+                    "text": "Mexico (2009)"
+                },
+                {
+                    "key": "DNK",
+                    "doc_count": 479,
+                    "female": 497,
+                    "text": "Denmark (2001)"
+                },
+                {
+                    "key": "NOR",
+                    "doc_count": 481,
+                    "female": 490,
+                    "text": "Norway (2010)"
+                },
+                {
+                    "key": "GBR",
+                    "doc_count": 476,
+                    "female": 491,
+                    "text": "United Kingdom (2005)"
+                },
+                {
+                    "key": "JPN",
+                    "doc_count": 472,
+                    "female": 456,
+                    "text": "Japan (2011)"
+                },
+                {
+                    "key": "KOR",
+                    "doc_count": 461,
+                    "female": 462,
+                    "text": "Korea (2009)"
+                }
+            ]
+        }
+    }
+}
