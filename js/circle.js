@@ -1,5 +1,5 @@
-var width = 500,
-    height = 500,
+var width = 800,
+    height = 800,
     start = 0,
     end = 2.25,
     numSpirals = 3
