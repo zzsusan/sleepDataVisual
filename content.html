@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>睡眠之虞 | 新闻正文页</title>
+    <title>睡眠之虞 | 新闻正文 </title>
 
     <link href="css/tabletStatistics.css" rel="stylesheet" type="text/css" />
     <link href="css/map.css" rel="stylesheet" type="text/css" />
@@ -50,20 +50,20 @@
         </p>
         <img style="text-align: center" src="./img/highdata.png">
         <p>
-            为了探索影响睡眠质量的因素，我们截取这两段时间进行对比分析。
+            为了探索影响睡眠质量的因素，我们截取这两段时间进行对比分析。首先展示的是睡眠质量较低的8，9，10三个月的入睡时间，起床时间，间隔时间和绝对睡眠时间。
         </p>
 
         <div id="startendbar1"></div>
 
         <p>
-            深蓝色条是结束时间相对于前天晚上八点的值，蓝色条是入眠时间相对于前天晚上八点的值
-            横轴坐标则是代表是第几天）在睡眠质量较低的8，9，10三个月，Dana惯常在十一点前入睡，六点半左右起床，睡眠时间平均是7.86个小时
+            深蓝色条是结束时间相对于前天晚上八点的绝对值，蓝色条是入眠时间相对于前天晚上八点的绝对值。横轴坐标则是代表是第几天。
+            可以看出，在睡眠质量较低的8，9，10三个月，Dana惯常在十一点前入睡，六点半左右起床，睡眠时间平均是7.86个小时。
         </p>
 
         <div id="startendbar2"></div>
 
         <p>
-            而在睡眠质量相对较高的5，6，7三个月，Dana惯常在十一点半之前睡觉，睡眠时间大约是7.71个小时。
+            之后展示的是睡眠质量相对较高的5，6，7三个月，可以看到，Dana惯常在十一点半之前睡觉，睡眠时间大约是7.71个小时。
         </p>
 
         <p>
@@ -165,7 +165,7 @@
         import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";  
             import notebook1 from "./js/calendar-view.js";
             import notebook from "./js/stacked-to-grouped-bars.js";
-            import notebook2 from "./js/highdataBar.js"
+            import notebook2 from "./js/stacked-to-grouped-bars.1.js"
             Runtime.load(notebook1,Inspector.into(document.getElementById("chart")));
             Runtime.load(notebook, Inspector.into(document.getElementById("startendbar1")));
             Runtime.load(notebook2, Inspector.into(document.getElementById("startendbar2")));
